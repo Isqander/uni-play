@@ -1,9 +1,9 @@
 package uni.play.dto;
 
-public class ClosePoolResponse {
+public class ClosePositionResponse {
     private String transactionHash;
 
-    public ClosePoolResponse(String transactionHash) {
+    public ClosePositionResponse(String transactionHash) {
         this.transactionHash = transactionHash;
     }
 
